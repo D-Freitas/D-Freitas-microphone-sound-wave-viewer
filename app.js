@@ -55,7 +55,9 @@ const { } = new class {
     this.audioAnalyser.getByteFrequencyData(this.dataArray);
     this.ctx.clearRect(0, 0, innerWidth, innerHeight);
 
-    let radius = 190 / 1.4, bars = 100, strokeStyle = '#0062ff';
+    const radius = 190 / 1.4;
+    const bars = 100;
+    const strokeStyle = '#0062ff';
     
     this.ctx.beginPath();
     this.ctx.arc(innerWidth / 2, innerHeight / 2, radius, 0, 2 * Math.PI);
