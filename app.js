@@ -85,7 +85,7 @@ const { } = new class {
     
     this.hueShifting += .01;
 
-    if (this.hueShifting > 360) {
+    if (this.hueShifting > 6.3) {
       this.hueShifting = 0;
     }
 
